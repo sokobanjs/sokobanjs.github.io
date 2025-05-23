@@ -19,8 +19,12 @@
 		}
 		document.write("<scr" + "ipt language=\"JavaScript\" src=\"js/niveles_" + conjuntoDeNiveles + ".js\"></scr" + "ipt>");
                 function btn_click(evt, code) {
-                  e = { keyCode: code };
-                  handleCursores(e);
+                  if (code == 0) {
+                    deshacer();
+                  } else {
+                    e = { keyCode: code };
+                    handleCursores(e);
+                  }
                   evt.preventDefault();
                 }
 	</script>
@@ -107,9 +111,13 @@
 
 		<br>
 		
-		<a href="#" onclick="deshacer();">Undo</a> <span class="textoP">(Ctrl+Z)</span><br>
+                <table>
+                <tr><td>
 		<a href="#" onclick="reiniciarNivel();">Restart level</a><br>
 		<a href="#" onclick="reiniciarJuego();">Restart game</a><br>
+                </td><td><button onclick="btn_click(event,0)" style="margin-left:20px">U</button>
+                </td></tr>
+                </table>
 		
 		<br>
 		<table>
