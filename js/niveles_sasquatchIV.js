@@ -1,5 +1,5 @@
 /*
-" "--Un espacio vacío
+" "--Un espacio vacÃ­o
 "#"--Una pared
 "."--Objetivo
 "$"--Tesoro

@@ -1,5 +1,5 @@
 /*
-" "--Un espacio vacío
+" "--Un espacio vacÃ­o
 "#"--Una pared
 "."--Objetivo
 "$"--Tesoro
@@ -9,7 +9,7 @@
 */
 
 var numNiveles = 135;
-var nombreDeNivel = "Más Microban";
+var nombreDeNivel = "MÃ¡s Microban";
 var autorDeNivel = "David Skinner";
 var urlDeNivel = "http://users.bentonrea.com/~sasquatch/sokoban/";
 var mailDeNivel = "sasquatch@bentonrea.com";

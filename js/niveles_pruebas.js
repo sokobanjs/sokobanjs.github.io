@@ -1,5 +1,5 @@
 /*
-" "--Un espacio vacío 
+" "--Un espacio vacÃ­o 
 "#"--Una pared
 "."--Objetivo
 "$"--Tesoro
@@ -9,7 +9,7 @@
 */
 var numNiveles = 3;
 var nombreDeNivel = "Pruebas"; 
-var autorDeNivel = "Juan Antonio Jiménez";
+var autorDeNivel = "Juan Antonio JimÃ©nez";
 var urlDeNivel = "http://e-Contento.com/sokoban/";
 var mailDeNivel = "juan.jimenez@fotomadrid.com";
 

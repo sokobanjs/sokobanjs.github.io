@@ -1,5 +1,5 @@
 /*************
-" "--Un espacio vacÌo 
+" "--Un espacio vac√≠o 
 "#"--Una pared
 "."--Objetivo
 "$"--Tesoro
@@ -8,7 +8,7 @@
 "+"--Jugador sobre un objetivo
 */
 var numNiveles = 40;
-var nombreDeNivel = "Cl·sicos";
+var nombreDeNivel = "Cl√°sicos";
 var autorDeNivel = "";
 var urlDeNivel = "";
 var mailDeNivel = "";

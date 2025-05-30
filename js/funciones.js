@@ -21,7 +21,7 @@ var aSkins = new Array();
 	aSkins[0] = ["Mac","img/mac/",16,16,false];
 	aSkins[1] = ["Mac (Grande)","img/mac/",32,32,false];
 	aSkins[2] = ["Simple (Normal)","img/simple_n/",16,16,true];
-	aSkins[3] = ["Simple (Pequeño)","img/simple_p/",8,8,true];
+	aSkins[3] = ["Simple (PequeÃ±o)","img/simple_p/",8,8,true];
 	aSkins[4] = ["eContento","img/eContento/",13,13,true];
 	aSkins[5] = ["Yoshio Murase","img/yoshio/",16,16,true];
 	aSkins[6] = ["Windows","img/windows/",16,16,false];
@@ -593,7 +593,7 @@ function escribirPie(){
 	txt += "<p class=\"textoP\">\n";
 	txt += "<i>\n";
 	txt += "	<a href=\"http://sokoban.e-Contento.com\" class=\"textoP\">Sokoban en JavaScript</a><br>\n";
-	txt += "	&copy; <a href=\"mailto:sokoban@e-contento.com\" class=\"textoP\">Juan Antonio Jiménez</a><br>\n";
+	txt += "	&copy; <a href=\"mailto:sokoban@e-contento.com\" class=\"textoP\">Juan Antonio JimÃ©nez</a><br>\n";
 	txt += "	<a href=\"http://sokoban.e-Contento.com\" class=\"textoP\">http://sokoban.e-Contento.com</a><br>\n";
 	txt += "</i>\n";
 	txt += "</p>\n";
